@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Henrique Vieira | Web Developer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <ul class="navbar-nav">
+            <li class="logo">
+                <a href="#home" class="logo-link">
+                    <span class="logo-text">
+                        Henrique <br> Vieira <br> <span class="logo-text-sec">- <br> Web <br> Developer</span>
+                    </span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#home" class="nav-link">
+                    <i class="fas fa-home"></i>
+                    <span class="nav-text">Home</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#projects" class="nav-link">
+                    <i class="fas fa-project-diagram"></i>
+                    <span class="nav-text">Projects</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#about" class="nav-link">
+                    <i class="fas fa-info-circle"></i>
+                    <span class="nav-text">About</span>
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#contact" class="nav-link">
+                    <i class="fas fa-envelope"></i>
+                    <span class="nav-text">Contact</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+        <div id="home" class="home">
+            <div>
+                <h1>Henrique Vieira</h1>
+                <h2>Web Developer in Brussels</h2>
+            </div>
+            <img src="img/photoHenrique.png" alt="" class="photo">
+            <p>code, think, code... repeat</p>
+            <div class="languages">
+                <img src="img/languages/html@2x.png" alt="html">
+                <img src="img/languages/css@2x.png" alt="css">
+                <img src="img/languages/js@2x.png" alt="javascript">
+                <img src="img/languages/php@2x.png" alt="php">
+                <img src="img/languages/react@2x.png" alt="react">
+                <img src="img/languages/github@2x.png" alt="github">
+            </div>
+        </div>
+
+        <div id="projects" class="projects">
+            <div class="projects-title">
+                <h2>Projects</h2>
+                <p>Webpages, javascript apps, games... Some of my projects as a developer</p>
+            </div>
+            <div class="container projects-list">
+                <div>
+                    <p>To Do list</p>
+                    <a href="https://vieirahenrique.github.io/toDoList/" target="blank"><img
+                            src="img/projects/todolist.JPG.png" alt=""></a>
+                </div>
+                <div>
+                    <p>Game : Hangman</p>
+                    <a href="https://vieirahenrique.github.io/The-Hangman/" target="blank"><img
+                            src="img/projects/hangman.png" alt=""></a>
+                </div>
+                <div>
+                    <p>Memory game</p>
+                    <a href="https://vieirahenrique.github.io/MemoryGame/" target="blank"><img
+                            src="img/projects/memory.png" alt=""></a>
+                </div>
+                <div>
+                    <p>Project</p>
+                    <a href=""><img src="img/projects/image.png" alt=""></a>
+                </div>
+                <div>
+                    <p>Project</p>
+                    <a href=""><img src="img/projects/image.png" alt=""></a>
+                </div>
+                <div>
+                    <p>Project</p>
+                    <a href=""><img src="img/projects/image.png" alt=""></a>
+                </div>
+                <div>
+                    <p>Project</p>
+                    <a href=""><img src="img/projects/image.png" alt=""></a>
+                </div>
+                <div>
+                    <p>Project</p>
+                    <a href=""><img src="img/projects/image.png" alt=""></a>
+                </div>
+
+            </div>
+        </div>
+
+        <div id="about" class="about">
+            <div class="about-title">
+                <h2>About</h2>
+            </div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-6">
+                        <p>Hi there ! I am Henrique Vieira, Junior Web Developer.</p>
+                        <p>I just gratuated from an intensive 10 month course of Web Development at <a
+                                href="https://becode.org/" target="blank"> BeCode</a>.</p>
+                        <p>I am mainly focused on Front End development, using HTML, CSS, JavaScript and React, but I
+                            also manage backend with MySql databases and API fetching</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="contact" class="contact">
+            <div class="contact-title">
+                <h2>Contact</h2>
+            </div>
+            <form action="">
+                <div class="row">
+                    <div class="col-md-6">
+                        <input type="text" id="fName" placeholder="First name">
+                        <p class="">This field is required</p>
+                    </div>
+                    <div class="col-md-6">
+                        <input type="text" id="lName" placeholder="Last name">
+                        <p class="">This field is required</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <input type="text" id="email" placeholder="Email">
+                        <p class="">This field is required</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <textarea rows="10" id="msg" placeholder="Message"></textarea>
+                        <p class="">This field is required</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <button>SEND</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

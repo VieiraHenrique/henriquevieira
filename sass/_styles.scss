@@ -1,0 +1,37 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #1F2329;
+    background-image: url(../img/1x/pattern.png);
+}
+
+body::-webkit-scrollbar {
+    width: 1rem;
+}
+
+body::-webkit-scrollbar-track {
+    background: #24262E;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #67D4C1;
+}
+
+@import "header-small";
+@import "header-big";
+
+main {
+    margin-left: 8rem;
+    color: #fff;
+
+    @media (max-width:600px) {
+        margin-left: 0;
+    }
+}
+
+@import "home";
+@import "projects";
+@import "about";
+@import "contact";

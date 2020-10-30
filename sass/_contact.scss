@@ -1,0 +1,75 @@
+.contact {
+    padding-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    overflow: hidden;
+    margin-bottom: 3rem;
+
+    &-title {
+        h2 {
+            font-size: 3rem;
+            color: #67D4C1;
+            text-transform: uppercase;
+            text-align: center;
+
+            &::after {
+                background: #2d9180;
+                width: 8rem;
+                height: .4rem;
+                border-radius: 1rem;
+                content: '';
+                display: block;
+                margin: 0 auto;
+            }
+        }
+
+
+    }
+
+    p {
+        margin: .3rem 0;
+        padding: 0;
+        font-size: 1.4rem;
+        opacity: 0%;
+    }
+
+    .succes {
+        opacity: 100%;
+        color: rgb(84, 177, 7);
+    }
+
+    .error {
+        opacity: 100%;
+        color: rgb(238, 20, 20);
+    }
+
+    a {
+        color: #67D4C1;
+    }
+
+    input,
+    textarea {
+        width: 100%;
+        padding: 1rem;
+        color: #232323;
+        font-family: $main-font;
+        font-size: 1.6rem;
+    }
+
+    button {
+        border: none;
+        outline: none;
+        padding: 1rem;
+        width: 100%;
+        background: #67D4C1;
+        color: #fff;
+        cursor: pointer;
+
+        &:hover {
+            background: #43a796;
+        }
+    }
+}
