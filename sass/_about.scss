@@ -1,36 +1,54 @@
 .about {
-    padding-top: 5rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 3rem;
-    overflow: hidden;
+	padding-top: 5rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 3rem;
+	overflow: hidden;
+	line-height: 5;
 
-    &-title {
-        h2 {
-            font-size: 3rem;
-            color: #67D4C1;
-            text-transform: uppercase;
-            text-align: center;
+	&-title {
+		h2 {
+			font-size: 3rem;
+			color: #67d4c1;
+			text-transform: uppercase;
+			text-align: center;
 
-            &::after {
-                background: #2d9180;
-                width: 8rem;
-                height: .4rem;
-                border-radius: 1rem;
-                content: '';
-                display: block;
-                margin: 0 auto;
-            }
-        }
+			&::after {
+				background: #2d9180;
+				width: 8rem;
+				height: 0.4rem;
+				border-radius: 1rem;
+				content: '';
+				display: block;
+				margin: 0 auto;
+			}
+		}
 
-        p {
-            padding: 0 3rem;
-        }
-    }
+		p {
+			padding: 0 3rem;
+			line-height: 3;
+		}
+	}
 
-    a {
-        color: #67D4C1;
-    }
+	p {
+		line-height: 2;
+		margin-bottom: 3rem;
+	}
+
+	a {
+		color: #67d4c1;
+	}
+
+	.container {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		/* margin-top: -10rem; */
+	}
+
+	#lottie {
+		margin-top: -10rem;
+	}
 }
