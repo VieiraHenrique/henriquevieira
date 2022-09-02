@@ -4345,6 +4345,9 @@ main {
   align-items: center;
   gap: 3rem;
 }
+.projects-title {
+  margin-top: 60px;
+}
 .projects-title h2 {
   font-size: 3rem;
   color: #67d4c1;
