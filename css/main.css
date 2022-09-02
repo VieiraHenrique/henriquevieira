@@ -4367,6 +4367,10 @@ main {
 .projects-title a {
   color: #67d4c1;
 }
+.projects h3 {
+  text-align: center;
+  color: red;
+}
 .projects .projects-list {
   display: grid;
   grid-template-columns: 1fr;
