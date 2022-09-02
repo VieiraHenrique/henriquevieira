@@ -4362,6 +4362,7 @@ main {
 }
 .projects-title p {
   padding: 0 3rem;
+  text-align: center;
 }
 .projects-title a {
   color: #67d4c1;
