@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background: #1F2329;
+    background: #1f2329;
     background-image: url(../img/1x/pattern.png);
 }
 
@@ -12,11 +12,11 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-    background: #24262E;
+    background: #24262e;
 }
 
 body::-webkit-scrollbar-thumb {
-    background: #67D4C1;
+    background: #67d4c1;
 }
 
 @import "header-small";
@@ -26,7 +26,7 @@ main {
     margin-left: 8rem;
     color: #fff;
 
-    @media (max-width:600px) {
+    @media (max-width: 600px) {
         margin-left: 0;
     }
 }

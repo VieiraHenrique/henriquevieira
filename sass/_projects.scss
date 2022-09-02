@@ -1,65 +1,70 @@
 .projects {
-	padding-top: 5rem;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	gap: 3rem;
+    padding-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
 
-	&-title {
-		h2 {
-			font-size: 3rem;
-			color: #67d4c1;
-			text-transform: uppercase;
-			text-align: center;
+    &-title {
+        h2 {
+            font-size: 3rem;
+            color: #67d4c1;
+            text-transform: uppercase;
+            text-align: center;
 
-			&::after {
-				background: #2d9180;
-				width: 8rem;
-				height: 0.4rem;
-				border-radius: 1rem;
-				content: '';
-				display: block;
-				margin: 0 auto;
-			}
-		}
+            &::after {
+                background: #2d9180;
+                width: 8rem;
+                height: 0.4rem;
+                border-radius: 1rem;
+                content: "";
+                display: block;
+                margin: 0 auto;
+            }
+        }
 
-		p {
-			padding: 0 3rem;
-		}
+        p {
+            padding: 0 3rem;
+        }
 
-		a {
-			color: #67d4c1;
-		}
-	}
+        a {
+            color: #67d4c1;
+        }
+    }
 
-	.projects-list {
-		display: grid;
-		grid-template-columns: 1fr;
-		gap: 5rem;
-		text-align: center;
+    .projects-list {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 5rem;
+        text-align: center;
 
-		img {
-			border-radius: 1rem;
-			margin-bottom: 1rem;
-			box-shadow: 0 0 10px rgba($color: #000000, $alpha: 1);
-			transition: transform 0.4s ease;
+        img {
+            border-radius: 1rem;
+            margin-bottom: 1rem;
+            box-shadow: 0 0 10px rgba($color: #000000, $alpha: 1);
+            transition: transform 0.4s ease;
 
-			&:hover {
-				transform: scale(1.02);
-			}
-		}
+            &:hover {
+                transform: scale(1.02);
+            }
+        }
 
-		p {
-			margin-top: 1rem;
-			font-weight: 200;
-		}
+        p {
+            margin-top: 1rem;
+            font-weight: 200;
+        }
 
-		@media screen and (min-width: 768px) {
-			grid-template-columns: 1fr 1fr;
-		}
-		@media screen and (min-width: 1025px) {
-			grid-template-columns: 1fr 1fr 1fr;
-		}
-	}
+        a {
+            color: #67d4c1;
+            font-weight: 400;
+        }
+
+        @media screen and (min-width: 768px) {
+            grid-template-columns: 1fr 1fr;
+        }
+        @media screen and (min-width: 1025px) {
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+    }
 }
