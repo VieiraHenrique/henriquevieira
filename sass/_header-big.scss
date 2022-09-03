@@ -1,31 +1,29 @@
-@media (min-width:600px) {
-
-
-
+@media (min-width: 600px) {
     .logo {
         display: block;
         opacity: 0%;
-        transition: all .1s ease .1s;
+        transition: all 0.1s ease 0.1s;
     }
 
     .nav-text {
         display: block;
         opacity: 0%;
-        transition: all .1s ease .1s;
+        transition: all 0.1s ease 0.1s;
     }
 
     .navbar {
-        background: #24262E;
-        box-shadow: 0 5px 10px rgba($color: #000000, $alpha: .4);
-        width: 8rem;
+        background: #24262e;
+        box-shadow: 0 5px 10px rgba($color: #000000, $alpha: 0.4);
+        width: 20rem;
         height: 100vh;
         position: fixed;
+        z-index: 9999;
         top: 0;
-        left: 0;
-        transition: all .3s ease;
+        left: -10rem;
+        transition: all 0.3s ease;
 
         &:hover {
-            width: 20rem;
+            left: 0;
         }
 
         &:hover .nav-text {
@@ -36,7 +34,6 @@
             opacity: 100%;
         }
     }
-
 
     .logo {
         width: 100%;
@@ -49,7 +46,7 @@
         margin: 2rem 0;
 
         &-text {
-            color: #67D4C1;
+            color: #67d4c1;
 
             &-sec {
                 color: #ccc;
@@ -80,11 +77,11 @@
         padding: 2rem;
 
         &:hover {
-            background: #1F2329;
+            background: #1f2329;
         }
 
         &:hover .nav-text {
-            color: #67D4C1;
+            color: #67d4c1;
         }
     }
 
@@ -92,21 +89,7 @@
         display: flex;
         width: 100%;
         align-items: center;
-        gap: 3rem;
+        justify-content: space-between;
         color: #fff;
-
-
     }
-
-
-
-
-
-
-
-
-
-
-
-
 }
