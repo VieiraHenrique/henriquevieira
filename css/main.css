@@ -4220,17 +4220,18 @@ body::-webkit-scrollbar-thumb {
     transition: all 0.1s ease 0.1s;
   }
   .navbar {
-    background: #24262E;
+    background: #24262e;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
-    width: 8rem;
+    width: 20rem;
     height: 100vh;
     position: fixed;
+    z-index: 9999;
     top: 0;
-    left: 0;
+    left: -10rem;
     transition: all 0.3s ease;
   }
   .navbar:hover {
-    width: 20rem;
+    left: 0;
   }
   .navbar:hover .nav-text {
     opacity: 100%;
@@ -4249,7 +4250,7 @@ body::-webkit-scrollbar-thumb {
     margin: 2rem 0;
   }
   .logo-text {
-    color: #67D4C1;
+    color: #67d4c1;
   }
   .logo-text-sec {
     color: #ccc;
@@ -4275,16 +4276,16 @@ body::-webkit-scrollbar-thumb {
     padding: 2rem;
   }
   .nav-item:hover {
-    background: #1F2329;
+    background: #1f2329;
   }
   .nav-item:hover .nav-text {
-    color: #67D4C1;
+    color: #67d4c1;
   }
   .nav-link {
     display: flex;
     width: 100%;
     align-items: center;
-    gap: 3rem;
+    justify-content: space-between;
     color: #fff;
   }
 }
